@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+:focus {
+	outline: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+    *{
+        box-sizing: border-box;
+        padding:0;
+        margin:0;
+        max-width: 100%;
+        font-family: 'Roboto Mono', monospace;
+    }
+    html{
+        font-size:62.5%;
+    }
+    body{
+        font-size:1.6rem;
+        line-height: 1.5;
+        background-color: white;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    section{
+        padding: 4% 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    /* header section styles */
+    nav{
+        transition: all 1s ease-in-out;
+        padding: 2% 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    nav:hover{
+        background-color: #bb937a;
+    }
+    nav a {
+        display:inline-block;
+        padding: 1% 0;
+        width:10%;
+        border-radius: 10px;
+        text-align: center;
+        color:rgb(212, 212, 212);
+        line-height: 15px;
+    }
+    .orange{
+        background-color: #ff764E;
+        width: 8%;
+        text-shadow: 1px 1px rgb(136, 136, 136);
+        border: 1px solid rgb(136, 136, 136);
+    }
+    .blue{
+        background-color: #5ED3E8;
+        width: 8%;
+        text-shadow: 1px 1px rgb(136, 136, 136);
+        border: 1px solid rgb(136, 136, 136);
+    }
+    .yellow{
+        background-color:#FFCD69;
+        width: 8%;
+        text-shadow: 1px 1px rgb(136, 136, 136);
+        border: 1px solid rgb(136, 136, 136);
+    }
+    .top{
+        position: relative;
+        display: flex;
+    }
+    .left, .right{        
+        display:inline-block
+    }
+    .left{
+        width:20%;
+    }
+    .left img{
+        width:100%;
+        border-radius: 50%;
+        margin-left: 20%;
+    }
+    .right{
+        width:70%;
+        margin-left:15% ;
+    }
+    .right h1{
+        font-family: 'Chelsea Market', cursive;
+        font-size: 10rem;
+    }
+    .right h2{
+        line-height: 400%;
+        font-size: 2.5rem;
+        margin-left: 14%;
+    }
+    .right p {
+        text-align: center;
+        margin-left: 20%;
+        font-size: 2.5rem;
+        width: 40%;
+    }
+    .about{
+        text-align: center;
+        background-color: #DDB9A3;
+        color:rgb(212, 212, 212);
+        padding:2%;
+        margin: 0% 2% 0% 2%;
+        line-height: 150%;
+        font-size: 150%;
+        transition: all .5s ease-in-out;
+    }
+    .about:hover{
+        background-color: #aa7656;
+        transform: scale(1.05);
+        transition: .8s;
+    }
+    .p1{
+        padding-bottom: 2%;
+    }
+    strong{
+        font-weight: bold;
+    }
+    .icon1:hover{
+        margin-bottom: 2%;
+        transform: scale(1.1);
+        background-color: #bb937a;
+    }
+    .icon2:hover{
+        margin-top:2%;
+        transform: scale(1.1); 
+        background-color: #bb937a;
+    }
+    .iconSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transition: all .7s ease-in-out;
+    }
+    .icon1, .icon2{
+       font-size: 2rem; 
+       width: 20%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       transition: all .5s ease-in-out;
+    }
+    .icon1 img, .icon2 img{
+        width:50%;
+        padding: 2%;
+    }
+    .icon1 p , .icon2 p{
+        width: 90%;
+        text-align: center;
+    }
+    .prefooter{
+        height: 30vh;
+        overflow:hidden;
+    }
+    .prefooter img{
+        width:100%;
+        height: 200%;
+        object-fit:fill;
+        
+        
+    }
+    footer{
+        background-color: #F9E7DC;
+        transition: all 1s ease-in-out;
+    }
+    footer:hover{
+        background-color: #bb937a;
+    }
